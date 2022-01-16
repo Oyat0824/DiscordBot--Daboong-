@@ -12,7 +12,7 @@ class dial(commands.Cog):
 
 # 욕설 관련
     # 두려움 관련  
-    @commands.command(pass_context = True , aliases=['죽어', '죽을래', '죽을래?', '죽어버려', '디져', '뒤져', '디질래?', '뒤질래?', '덤벼'])
+    @commands.command(pass_context = True , aliases=['주거', '주거버려', '죽어', '죽을래', '죽을래?', '죽어버려', '디져', '뒤져', '디질래?', '뒤질래?', '덤벼'])
     async def swear(self, ctx):
         randomNum = random.randrange(1, 101)
         if 1 <= randomNum <= 20:

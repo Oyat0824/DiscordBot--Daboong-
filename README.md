@@ -5,4 +5,5 @@
 - 간단한 게임 기능 구현
 - 간단한 정보 보기 구현
 
-참고자료 : [토르봇][https://git.trashcan97.com/moonphase97/discordtohru]
+참고자료 : [토르봇][토르봇링크]
+[토르봇링크]: https://git.trashcan97.com/moonphase97/discordtohru

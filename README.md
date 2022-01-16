@@ -6,3 +6,4 @@
 - 간단한 정보 보기 구현
 
 참고자료 : [토르봇](https://git.trashcan97.com/moonphase97/discordtohru)
+참고자료 : [봇제작](https://blog.naver.com/huntingbear21/221646735340)

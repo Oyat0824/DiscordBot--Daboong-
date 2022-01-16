@@ -237,6 +237,24 @@ class dial(commands.Cog):
             todo = ['하세여!', '하지마세여!', '안돼여!', '좋아여!', '그럴까요?', '잘 모르겠어요...', '별로에요.']
             reply = random.choice(todo)
             await ctx.send(reply)
+    # 배고파
+    @commands.command(pass_context = True , aliases=["배고파", "나배고파", "뭐먹을까", "뭐먹을까?"])
+    async def hungry(self, ctx):
+        hungry = ['밥을 드세요!', '오또케... :pleading_face:']
+        reply = random.choice(hungry)
+        await ctx.send(reply)
+    # 심심해
+    @commands.command(pass_context = True , aliases=["심심해", "나심심해", "뭐하고놀까", "뭐하고놀까?"])
+    async def boring(self, ctx):
+        boring = ['혼자 노는 법을 알면 좋겠네요! ㅎ', '어쩌라구욘~!']
+        reply = random.choice(boring)
+        await ctx.send(reply)
+    # 놀아줘
+    @commands.command(pass_context = True , aliases=["놀아줘", "놀자"])
+    async def playme(self, ctx):
+        playme = ['뭐 하구 놀까요?', '저랑 시체놀이 해요!']
+        reply = random.choice(playme)
+        await ctx.send(reply)
 
     # 핑
     @commands.command(pass_context = True , name="핑")

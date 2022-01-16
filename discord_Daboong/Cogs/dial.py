@@ -87,7 +87,7 @@ class dial(commands.Cog):
             file = discord.File("sr_otaku.jpg")
             msg = await ctx.send(file=file)
         elif 85 <= randomNum <= 99:
-            file = discord.File("ok_sex.png")
+            file = discord.File("ok_go.png")
             msg = await ctx.send(file=file)
     # 응기잇
     @commands.command(pass_context = True , aliases=['응기잇', '섹스', '낑낑'])

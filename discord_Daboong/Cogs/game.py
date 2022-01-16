@@ -14,6 +14,7 @@ class dial(commands.Cog):
     @commands.command(pass_context = True , aliases=['동전', '동전던져줘', '코인'])
     async def coin(self, ctx):
         randomNum = random.randrange(1, 102)
+        await ctx.send("{}".format(ctx.author.mention))
         if randomNum == 101:
             await ctx.send(embed = discord.Embed(description=':coin:　' + '동전이 섰다?!', color=0xFF8C00))
         elif 1 <= randomNum <= 50:
@@ -27,6 +28,7 @@ class dial(commands.Cog):
         await ctx.send("에잇!")
         randomNum = random.randrange(1, 7)
         print(randomNum)
+        await ctx.send("{}".format(ctx.author.mention))
         if randomNum == 1:
             await ctx.send(embed=discord.Embed(description=':game_die:　' + ':one:'))
         if randomNum == 2:

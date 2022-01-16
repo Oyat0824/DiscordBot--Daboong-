@@ -28,7 +28,7 @@ class dial(commands.Cog):
             msg1 = await ctx.send(file=file)
             msg2 = await ctx.send("코와이네~")
     # 바보
-    @commands.command(pass_context = True , name="바보")
+    @commands.command(pass_context = True , aliases=["바보", "브아보"])
     async def babo(self, ctx):
         babo = ['로봇인 제가 바보면 당신은..?', '저 바보 아니에여! :sob:']
         reply = random.choice(babo)
@@ -134,7 +134,7 @@ class dial(commands.Cog):
         reply = random.choice(bye)
         await ctx.send(reply)    
     # Sleep 관련
-    @commands.command(pass_context = True , aliases=['잘자', '굿나잇', '내꿈꿔', '잘장'])
+    @commands.command(pass_context = True , aliases=['잘자', '굿나잇', '내꿈꿔', '잘장', '졸려'])
     async def Good_night(self, ctx):
         KST = datetime.now(timezone('Asia/Seoul'))
         print(KST)
